@@ -20,6 +20,6 @@ public class RegistrationController {
         System.out.println("**********");
         System.out.println("Registration: " + registration.getName());
         System.out.println("**********");
-        return "registration";
+        return "redirect:registration";
     }
 }
